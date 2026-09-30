@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Trained model weights (regenerable by re-running the notebook)
+checkpoints/
+
+# Raw dataset (download via Kaggle API — see README)
+data/elliptic-data-set.zip
+data/*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+myenv/
+
+# OS / editor junk
+.DS_Store
+__MACOSX/
+.ipynb_checkpoints/
